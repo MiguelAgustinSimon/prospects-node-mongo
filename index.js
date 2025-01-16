@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import cors from 'cors'; // Importa cors
+import cors from 'cors';
 import prospectsRouter from './routes/prospects.js';
 
 dotenv.config();
