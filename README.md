@@ -17,6 +17,7 @@ Este proyecto proporciona un backend en Node.js con una API REST para gestionar 
 2. Crea un archivo .env en la raíz del proyecto con el siguiente contenido:
 MONGO_URI=mongodb://root:root@localhost:27017/?authSource=admin
 PORT=3000
+FRONTEND_HOST=http://localhost:5173
 
 3. Levantar MongoDB: "docker-compose up -d"
 4. Importar Prospectos desde un Archivo CSV: "node csvToJson.js"
